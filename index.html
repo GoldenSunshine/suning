@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/gk.css"/>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<style type="text/css">
+		*{margin:0;padding: 0;}
+		ul li{list-style: none;}
+		a{text-decoration: none;}
+		img{width: 365px;height: 240px;}
+		h4{margin:0 0 5px 5% ;color:dodgerblue}
+		body{background: #e3e4e5;height: 800px;}
+		.out{width: 1000px;height: 100%;margin: 0 auto;background: white;}
+		.logo{height: 165px;background:url(img/logo.png);}
+		.out>.nav{height: 25px;background: -webkit-linear-gradient(left, #36f, #030);}
+		.nav .first{float: left;margin: 0 10px;line-height: 25px;font-size: 12px;position: relative;}
+		.nav .first>a{color: white;}
+		.nav .first ul{width:80px;position: absolute;z-index: 99;background: white;border: 1px solid gray;margin-top: 1px;left:-12px;}
+		.nav .first ul li{padding: 10px;border-bottom: 1px solid gray;border-collapse: collapse;}
+		.section{margin: 20px;height: 450px;}
+		.section .nav ul li a{color: black;}
+		.section .nav ul li a:hover{color: orangered;}
+		.aside,.article{float: left;}
+		.aside{width: 40%;}
+		.aside>div{width: 380px;margin: 0 auto;}
+		.lunbo{border: 1px solid #e3e4e5;height: 280px;margin: 20px auto;position: relative;}
+		.aside .change{width: 365px;height: 270px;background: #e3e4e5;margin: 0 auto;}
+		.aside .change ul{width: 365px;margin: 5px auto;}
+		.aside .change .tu>li{position: absolute;}
+		.aside .change h4{position: absolute;bottom: 10px;text-align: center;width: 100%;}
+		.aside .change .tu .nav{z-index: 999;width: 150px;height: 20px;position: absolute;bottom: 40px;right: 15px;}
+		.aside .change .tu .nav li{cursor: pointer;color: white;text-align:center;width: 18px;height: 18px;border:1px solid white;background: gray;float: left;margin-right:5px;}
+		.aside .nav{margin-top:15px;}
+		.aside .nav ul{width: 100%;}
+		.aside .nav ul li{font-size: 10px;width: 30%;margin: 10px 10% 0;float: left;text-align: left;list-style: square;}
+		.aside .search{font-size: 10px;margin:100px auto 0;text-align: left;width: 80%;}
+		.aside .search input{width: 50%;}
+		.aside .search button{border-radius: 5px;border: 1px solid darkgray;}
+		.article{width: 60%;height: 100%;}
+		.dt,.tz{width: 90%;height: 50%;margin: 0 auto;}
+		.article ul{height: 80%;}
+		.article ul li{border-bottom: 1px dashed gray;height: 30px;line-height: 30px;}
+		.article a{color: black;font-size: 10px;}
+		.footer{margin-top:50px ;}
+		.footer p{margin-top:10px ;}
+		.article a:hover{color: orangered;text-decoration: underline;}
+	</style>
+	<body>
+		<div class="out">
+			<div class="logo"></div>
+			<div class="nav">
+				<ul>
+					<li class="first"><a href="">首页</a></li>
+					<li class="first">
+						<a href="">学院概况</a>
+						<ul style="display: none;">
+							<li>学院简介</li>
+							<li>师资队伍</li>
+							<li>交通位置</li>
+							<li>联系方式</li>
+						</ul>
+					</li>
+					<li class="first">
+						<a href="">专业介绍</a>
+						<ul style="display: none;">
+							<li>学院简介</li>
+							<li>师资队伍</li>
+							<li>交通位置</li>
+							<li>联系方式</li>
+						</ul>
+					</li>
+					<li class="first">
+						<a href="">科研教研</a>
+						<ul style="display: none;">
+							<li>学院简介</li>
+							<li>师资队伍</li>
+							<li>交通位置</li>
+							<li>联系方式</li>
+						</ul></li>
+					<li class="first">
+						<a href="">实习实训</a>
+						<ul style="display: none;">
+							<li>学院简介</li>
+							<li>师资队伍</li>
+							<li>交通位置</li>
+							<li>联系方式</li>
+						</ul></li>
+					<li class="first"><a href="">培训考试</a></li>
+					<li class="first"><a href="">党建工作</a></li>
+					<li class="first">
+						<a href="">学生工作</a>
+						<ul style="display: none;">
+							<li>学院简介</li>
+							<li>师资队伍</li>
+							<li>交通位置</li>
+							<li>联系方式</li>
+						</ul></li>
+					<li class="first"><a href="">就业资讯</a></li>
+					<li class="first"><a href="">校友风采</a></li>
+					<li class="first"><a href="">网上服务</a></li>
+				</ul>
+			</div>
+			<div class="section">
+				<div class="aside">
+					<div class="lunbo">
+						<div class="change">
+							<ul class="tu">
+								<li><img src="img/1.png" alt=""/></li>
+								<!--<li><img src="img/2.png" alt="" /></li>
+								<li><img src="img/3.jpg" alt="" /></li>
+								<li><img src="img/4.jpg" alt="" /></li>
+								<li><img src="img/5.jpg" alt="" /></li>
+								<li><img src="img/6.png" alt="" /></li>-->
+								<ul class="nav">
+									<li style="background: red;">1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+								</ul>
+							</ul>
+							<h4>广东省第七届</h4>
+						</div>
+					</div>
+					<div class="nav">
+						<h4><i class="iconfont">&#xe62a;</i>快速通道</h4>
+						<div style="width: 100%;height: 1px;background: darkblue;"></div>
+						<ul>
+							<li><a href="">学生评班主任系统</a></li>
+							<li><a href="">学生评教系统</a></li>
+							<li><a href="">学生选课系统</a></li>
+							<li><a href="">学校官方微博</a></li>
+							<li><a href="">学生定岗实习系统</a></li>
+							<li><a href="">学校主页</a></li>
+						</ul>
+					</div>
+					<div class="search" style="color: gray;">
+						校内搜索：<input type="search" name="" id="" value="" /><button><i class="iconfont">&#xe601;</i>搜索</button>
+					</div>
+				</div>
+				<div class="article">
+					<div class="dt">
+						<h4 style="display: inline-block;"><i class="iconfont">&#xe62a;</i>学院动态</h4>
+						<a href="" style="float: right;">更多>></a>
+						<div style="width: 100%;height: 1px;background: darkblue;"></div>
+						<ul>
+							<li><a href=""><i class="iconfont">&#xe600;</i>广东省教育厅“金湾杯”第七届广东省大学生职业生涯规划大赛</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>广州学院多位教师参加微课制作培训</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>3月3日图书馆志愿活动</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>广州学院在2016年省教育厅宿舍文化新媒体创意大赛中取得优异成绩</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>广州学院2016-2017学年度第二学期开学第一天教学检查情况通报</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>广州学院2017迎新年晚会暨第九届舞蹈大赛决赛</a></li>
+						</ul>
+					</div>
+					<div class="tz">
+						<h4 style="display: inline-block;"><i class="iconfont">&#xe62a;</i>公告通知</h4>
+						<a href="" style="float: right;">更多>></a>
+						<div style="width: 100%;height: 1px;background: darkblue;"></div>
+						<ul>
+							<li><a href=""><i class="iconfont">&#xe600;</i>信宏投资咨询有限公司招聘信息</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>益海（广州）粮油工业有限公司招聘简章</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>世界500强外资银行2017年校园招聘</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>转发《广东省2017年普通高等学校本科插班生招生工作规定》</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>广东省2017届高校毕业生系列供需见面活动</a></li>
+							<li><a href=""><i class="iconfont">&#xe600;</i>玄武科技实习生招聘简章</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer" style="font-size: 9px;text-align: center;">
+				<p>Copyright © 2014 All Rights Reserved</p>
+				<p>版权所有：广东科学技术职业学院广州学院 地址：广州市天河区科华街351号 招生咨询电话：020-85297372 联系电话：020-85297592</p>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$('.first').hover(function(){
+				$(this).children('ul').css('display','block');
+			},function(){
+				$(this).children('ul').css('display','none');
+			})
+			$('.tu .nav li').click(function(){
+				$(this).css("background",'red').siblings().css('background','gray');
+			});
+		})
+	</script>
+</html>
